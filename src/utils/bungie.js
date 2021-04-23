@@ -170,6 +170,10 @@ export const GetMembershipDataForCurrentUser = async (access = false) =>
     }
   });
 
+export const GetCharactersForCurrrentUser = () => {
+  
+}
+
 export const GetProfile = async options =>
   apiRequest(`/Platform/Destiny2/${options.params.membershipType}/Profile/${options.params.membershipId}/?components=${options.params.components}`, options);
 
