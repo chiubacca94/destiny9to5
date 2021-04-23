@@ -1,0 +1,55 @@
+{
+    "Response": {
+        "profileCurrencies": {
+            "data": {
+                "items": [
+                    {
+                        "itemHash": 3159615086,
+                        "quantity": 217019,
+                        "bindStatus": 0,
+                        "location": 1,
+                        "bucketHash": 2689798308,
+                        "transferStatus": 2,
+                        "lockable": false,
+                        "state": 0,
+                        "dismantlePermission": 0,
+                        "isWrapper": false,
+                        "tooltipNotificationIndexes": []
+                    },
+                    {
+                        "itemHash": 1022552290,
+                        "quantity": 18782,
+                        "bindStatus": 0,
+                        "location": 1,
+                        "bucketHash": 2689798309,
+                        "transferStatus": 2,
+                        "lockable": false,
+                        "state": 0,
+                        "dismantlePermission": 0,
+                        "isWrapper": false,
+                        "tooltipNotificationIndexes": []
+                    },
+                    {
+                        "itemHash": 2817410917,
+                        "quantity": 16373,
+                        "bindStatus": 0,
+                        "location": 1,
+                        "bucketHash": 2689798311,
+                        "transferStatus": 2,
+                        "lockable": false,
+                        "state": 0,
+                        "dismantlePermission": 0,
+                        "isWrapper": false,
+                        "tooltipNotificationIndexes": []
+                    }
+                ]
+            },
+            "privacy": 2
+        }
+    },
+    "ErrorCode": 1,
+    "ThrottleSeconds": 0,
+    "ErrorStatus": "Success",
+    "Message": "Ok",
+    "MessageData": {}
+}

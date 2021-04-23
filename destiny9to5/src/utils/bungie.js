@@ -149,6 +149,10 @@ async function apiRequest(path, options = {}) {
   }
 }
 
+export const testBungie = () => {
+  return "TRUE";
+};
+
 export const GetOAuthAccessToken = async body =>
   apiRequest('/Platform/App/OAuth/Token/', {
     method: 'post',
