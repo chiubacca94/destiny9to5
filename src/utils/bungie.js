@@ -150,7 +150,7 @@ async function apiRequest(path, options = {}) {
 }
 
 export const testBungie = () => {
-  return "TRUE";
+  return "PLEASE SIGN IN.";
 };
 
 export const GetOAuthAccessToken = async body =>

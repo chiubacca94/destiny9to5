@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -18,26 +18,29 @@ import './styles.css';
 
 function Navbar(){
     // let selectedClass = "Hunter 1330";
-        const [value,setValue]=useState('Hunter 1330');
-        const handleSelect=(e)=>{
-            // console.log(e);
-            setValue(e)
-        }
+    const [value,setValue]=useState('Hunter 1330');
+    const handleSelect=(e)=>{
+         // console.log(e);
+        setValue(e)
+    }
 
-    
     function getRecentClassUsed(){
-        // 
+
     };
 
     function switchClass(){
 
     }; 
 
+    function login(){
+
+    }
+
     return(
         <nav class="navigation navbar navbar-light bg-light" fixed="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">DESTINY 9 to 5</a>
-                <Button type="button" class="btn btn-primary">Login to Bungie.net</Button>
+                <Button type="button" class="btn btn-primary" onClick={login}>Login to Bungie.net</Button>
             </div>
             {/* Class selection will only appear if signed in */}
             <div class="container-fluid">
