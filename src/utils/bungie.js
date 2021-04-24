@@ -149,6 +149,10 @@ async function apiRequest(path, options = {}) {
   }
 }
 
+export const testBungie = () => {
+  return "PLEASE SIGN IN.";
+};
+
 export const GetOAuthAccessToken = async body =>
   apiRequest('/Platform/App/OAuth/Token/', {
     method: 'post',
@@ -165,6 +169,10 @@ export const GetMembershipDataForCurrentUser = async (access = false) =>
       Authorization: access && `Bearer ${access}`
     }
   });
+
+export const GetCharactersForCurrrentUser = () => {
+  
+}
 
 export const GetProfile = async options =>
   apiRequest(`/Platform/Destiny2/${options.params.membershipType}/Profile/${options.params.membershipId}/?components=${options.params.components}`, options);
