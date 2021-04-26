@@ -37,7 +37,7 @@ function Navbar(){
     }
 
     return(
-        <nav class="navigation navbar navbar-light bg-light" fixed="top">
+        <nav id="mainNav" class="navigation navbar navbar-light bg-light" fixed="top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">DESTINY 9 to 5</a>
                 <Button type="button" class="btn btn-primary" onClick={login}>Login to Bungie.net</Button>

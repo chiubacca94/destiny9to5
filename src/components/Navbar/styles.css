@@ -1,3 +1,10 @@
+/* Phone css */
+@media only screen and (max-width: 490px) {
+    #mainNav {
+    }
+}
+
 .top-space {
     padding-top: 1em;
 }
+
