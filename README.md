@@ -1,4 +1,10 @@
-dev branch: ![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)
+# Statuses
+[dev branch: ![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)]
+
+# Resources
+https://wireframepro.mockflow.com/view/Destiny9to5
+https://wireframepro.mockflow.com/view/Destiny9to5#/page/7e68f55e8d43419ab390a604ffd071fc
+
 
 # Getting Started with Create React App
 
