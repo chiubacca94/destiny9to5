@@ -1,4 +1,4 @@
-[![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)]
+![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)
 
 # Getting Started with Create React App
 
