@@ -1,5 +1,5 @@
 # Statuses
-[dev branch: ![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)]
+- dev branch: ![BuildStatus](https://travis-ci.com/brittanychiucode/destiny9to5.svg?token=tdBycbGnJNqHWdERiFNp&branch=dev)
 
 # Resources
 https://wireframepro.mockflow.com/view/Destiny9to5
