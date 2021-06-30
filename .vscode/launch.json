@@ -5,10 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm start",
+            "name": "1. Start Destiny9to5 App",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "2. Launch Chrome for Destiny9to5",
+            "url": "https://localhost:3000",
             "webRoot": "${workspaceFolder}"
         }
     ]

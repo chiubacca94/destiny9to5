@@ -64,12 +64,10 @@ function MainNavbar(){
           <div id="navbar-menu-right-side">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto" >
               <Nav.Link className="mr-auto" href="#deets">Bounty Board</Nav.Link>
               <Nav.Link className="mr-auto" eventKey={2} href="#memes">Loadouts</Nav.Link>
               <Nav.Link className="mr-auto" eventKey={3} href="#memes">Pinnacle Checklist</Nav.Link>
-              <Button className="mr-auto" type="button" class="btn btn-primary" onClick={login}>Login to Bungie.net</Button>
-            </Nav>
+              <Button className="mr-auto " type="button" class="btn btn-primary align-right" onClick={login}>Login to Bungie.net</Button>
           </Navbar.Collapse>
           </div>
         </Navbar>
